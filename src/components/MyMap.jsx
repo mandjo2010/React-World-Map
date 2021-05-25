@@ -53,7 +53,7 @@ class MyMap extends Component {
   render() {
     return (
       <div>
-        <h1 style={{ textAlign: "center" }}>My Map</h1>
+        <h1 style={{ textAlign: "center" }}>WORLD MAP</h1>
         <Map style={{ height: "80vh" }} zoom={2} center={[20, 100]}>
           <GeoJSON
             style={this.countryStyle}
